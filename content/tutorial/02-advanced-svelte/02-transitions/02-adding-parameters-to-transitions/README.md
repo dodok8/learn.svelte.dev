@@ -2,7 +2,7 @@
 title: Adding parameters
 ---
 
-Transition functions can accept parameters. Replace the `fade` transition with `fly`...
+트랜지션 함수는 인자를 받을 수 있습니다. `fade` 트랜지션을 `fly`로 바꿔봅시다.
 
 ```svelte
 /// file: App.svelte
@@ -12,7 +12,7 @@ Transition functions can accept parameters. Replace the `fade` transition with `
 </script>
 ```
 
-...and apply it to the `<p>` along with some options:
+그리고 `<p>` 에 몇 옵션들과 같이 적용해 봅시다.
 
 ```svelte
 /// file: App.svelte
@@ -21,4 +21,4 @@ Transition functions can accept parameters. Replace the `fade` transition with `
 </p>
 ```
 
-Note that the transition is _reversible_ — if you toggle the checkbox while the transition is ongoing, it transitions from the current point, rather than the beginning or the end.
+트랜지션은 _되돌릴 수 있다_ 는 걸 명심합시다.  — 트랜지션이 진행중에 체크박스를 토글한다면, 시작이나 끝 지점이 아닌 현재 위치에서 전환이 시작됩니다.
