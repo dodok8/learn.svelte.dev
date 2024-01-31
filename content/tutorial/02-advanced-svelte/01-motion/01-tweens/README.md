@@ -41,4 +41,4 @@ title: 트윈(Tweens)
 - `easing` — `p => t` 함수
 - `interpolate` — 커스텀 `(from, to) => t => value` 함수로 임의의 값 사이를 보간하는 데 사용합니다. 기본적으로 Svelte 는 숫자, 날짜, 그리고 동형으로 생긴 배열과 오브젝트 값 사이를 보간할 것입니다  숫자, 날짜, 아니면 다른 유효한 배열과 오브젝트만 가지고 있는 한 말이죠. 만약 당신이, 예를 들어, 색깔 문자열이나, 변환 행렬을 다룬다면, 커스텀 보간을 입력할 수 있습니다.
 
-이 옵션들을 `progress.set` 와 `progress.update`에 2번째 인자값으로 넣어줄 수 있습니다. 그 경우 기본값을 덮어 쓰게 됩니다. `set` 과 `update` 메쏘드는 프로미스(promise)를 반환하고, 이 프로미스(promise)는 트윈(tween)이 완료되는 시점에 resolve 됩니다.
+이 옵션들을 `progress.set` 와 `progress.update`에 2번째 파라미터값으로 넣어줄 수 있습니다. 그 경우 기본값을 덮어 쓰게 됩니다. `set` 과 `update` 메쏘드는 프로미스(promise)를 반환하고, 이 프로미스(promise)는 트윈(tween)이 완료되는 시점에 resolve 됩니다.
