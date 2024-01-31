@@ -1,5 +1,5 @@
 ---
-title: Tweens
+title: 트윈(Tweens)
 ---
 
 이제 우리는 기본적인 내용을 다 다뤘으니, 고급 Svelte 기술들을 다뤄볼 차례입니다. 먼저 _모션(motion)_ 부터 시작하겠습니다.

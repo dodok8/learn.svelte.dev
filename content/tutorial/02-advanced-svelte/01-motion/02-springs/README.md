@@ -1,5 +1,5 @@
 ---
-title: Springs
+title: 스프링(Springs)
 ---
 
 스프링(`spring`) 함수는 트윈드(`tweened`) 대신에 사용할 수 있는 함수로, 값이 자주 바뀌는 경우에 더 좋은 결과를 보여주는 경우가 많습니다.
