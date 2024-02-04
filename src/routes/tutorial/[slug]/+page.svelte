@@ -224,9 +224,9 @@
 									}}
 								>
 									{#if completed && data.exercise.has_solution}
-										reset
+										처음으로
 									{:else}
-										solve <Icon name="arrow-right" />
+										정답보기 <Icon name="arrow-right" />
 									{/if}
 								</button>
 							</section>
