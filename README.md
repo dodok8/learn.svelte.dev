@@ -1,3 +1,7 @@
+# 한국어 번역 공지
+
+[여기서](https://github.com/Svelte-Korea/learn.svelte.kr) 진행 중 입니다. 이 곳은 과거의 흔적입니다.
+
 # learn.svelte.dev
 
 A soup-to-nuts interactive tutorial on how to build apps with Svelte.
